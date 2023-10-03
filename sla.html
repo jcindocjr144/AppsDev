@@ -27,7 +27,7 @@
           <a class="nav-link text-white" href="#" onclick="about()">About us</a>
         </li>  
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" onclick="na()">Tutorials</a>
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Tutorials</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" onclick="html()">HTML</a></li>
             <li><a class="dropdown-item" onclick="css()">CSS</a></li>
@@ -38,18 +38,70 @@
     </div>
   </div>
 </nav>
-<div id="html" style="display:none"> 
-<h1>HTML Tutorial</h1>
-<p>HTML is the standard markup language for Web pages.</p>
+
+<div id="html" style="display:none;"> 
+<div class="row">
+
+  <div class="col-lg-3 col-3">
+    <button onclick="h1()" class="button mt-1 ms-1 w-100">Home</button>
+    <button onclick="h2()" class="button mt-1 ms-1 w-100">Intro</button>
+    <button onclick="h3()" class="button mt-1 ms-1 w-100">Elements</button>
+  </div>
+
+  <div class="col-lg-8 col-8">
+    <div id="h1" style="display:none;">
+    <h1 class="text-center">Home</h1>
+
+    <h3>What in <span class="red">HTML</span> means?</h3>
+    <p>HTML, or Hypertext Markup Language, is a markup language for the web that defines the structure of web pages. It is one of the most basic building blocks of every website, so it's crucial to learn if you want to have a career in web development.</p>
+    <img src="html.png">
+
+
+    <h3>What is <span class="red">HTML</span>  known for?</h3>
+    <p>HyperText Markup Language (HTML) is the basic scripting language used by web browsers to render pages on the world wide web. HyperText allows a user to click a link and be redirected to a new page referenced by that link.</p>
+    <img src="html1.jpg">
+
+
+    <h3>How do <span class="red">HTML</span>  work?</h3>
+    <p>How does HTML work? Quite simply, HTML works by telling the internet browser how to display the page. First, the author uses a basic text editor on the computer (such as TextEdit for Mac) to create their HTML document. The author then fills their HTML document with a series of HTML elements, using HTML tags.</p>
+    <h3>Is <span class="red">HTML</span>  still coding?</h3>
+    <p>When you write HTML and CSS, you're still writing lines of code, albeit in a markup language, not a programming language. At its core, you're still codifying information to be used in the browser.</p>
+    <h3>What is <span class="red">HTML</span>  symbols?</h3>
+    <p>HTML symbols like mathematical operators, arrows, technical symbols and shapes, are not present on a normal keyboard. To add these symbols to an HTML page, you can use the HTML entity name. If no entity name exists, you can use the entity number.</p>
+
+
+
+
+
+    </div>
+    <div class="col-lg-1 col-1"></div>
+    <div id="h2" style="display:none;">
+    <h1 class="text-center">Introduction</h1>
+
+    </div>
+    <div id="h3" style="display:none;">
+    <h1 class="text-center">Elements</h1>
+
+
+
+  </div>
+
 </div>
+</div>
+</div>
+
+
 <div id="css" style="display:none"> 
 <h1>CSS Tutorial</h1>
 <p>CSS is the language we use to style an HTML document.</p>
 </div>
+
+
 <div id="js" style="display:none"> 
 <h1>Javascript Tutorial</h1>
 <p>JavaScript is the world's most popular programming language.</p>
 </div>
+
 <script type="text/javascript" src="JS/sla.js"></script>
 </body>
 </html>
