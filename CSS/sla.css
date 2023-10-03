@@ -1,7 +1,7 @@
-body
-{
-	background:RED;
+body {
+  font-family: "Lato", sans-serif;
 }
+
 .sla
 {
 	font-size: 30px;
@@ -9,4 +9,13 @@ body
 .two
 {
 	display: none;
+}
+.button
+{
+	width:60%;
+	padding:5px;
+}
+.red
+{
+	color: RED;
 }
