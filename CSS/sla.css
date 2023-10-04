@@ -19,3 +19,9 @@ body {
 {
 	color: RED;
 }
+.home
+{
+	background-image: url(../IMAGES/back.gif); 
+	background-size:100vh; 
+	height:100vh;
+}
