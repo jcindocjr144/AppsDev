@@ -25,3 +25,7 @@ body {
 	background-size:100vh; 
 	height:100vh;
 }
+.nav-link
+{
+	text-shadow: 0 0 0 3px BLACK;
+}
