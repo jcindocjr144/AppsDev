@@ -5,6 +5,8 @@ function html()
 	document.getElementById('css').style.display="none";
 	document.getElementById('js').style.display="none";
 	document.getElementById('home').style.display="none";
+	document.getElementById('contact').style.display="none";
+	document.getElementById('about').style.display="none";
 	document.body.style.background ="CYAN";
 }
 function css()
@@ -13,6 +15,8 @@ function css()
 	document.getElementById('html').style.display="none";
 	document.getElementById('js').style.display="none";
 	document.getElementById('home').style.display="none";
+	document.getElementById('contact').style.display="none";
+	document.getElementById('about').style.display="none";
 	document.body.style.background ="RED";
 }
 function js()
@@ -21,6 +25,8 @@ function js()
 	document.getElementById('css').style.display="none";
 	document.getElementById('html').style.display="none";
 	document.getElementById('home').style.display="none";
+	document.getElementById('contact').style.display="none";
+	document.getElementById('about').style.display="none";
 	document.body.style.background ="YELLOW";
 }
 
@@ -30,6 +36,8 @@ function home()
 	document.getElementById('js').style.display="none";
 	document.getElementById('css').style.display="none";
 	document.getElementById('html').style.display="none";
+	document.getElementById('contact').style.display="none";
+	document.getElementById('about').style.display="none";
 	document.body.style.background ="WHITE";
 }
 function contact()
@@ -38,6 +46,8 @@ function contact()
 	document.getElementById('js').style.display="none";
 	document.getElementById('css').style.display="none";
 	document.getElementById('html').style.display="none";
+	document.getElementById('contact').style.display="block";
+	document.getElementById('about').style.display="none";
 	document.body.style.background ="WHITE";
 }
 function about()
@@ -46,6 +56,8 @@ function about()
 	document.getElementById('js').style.display="none";
 	document.getElementById('css').style.display="none";
 	document.getElementById('html').style.display="none";
+	document.getElementById('contact').style.display="none";
+	document.getElementById('about').style.display="block";
 	document.body.style.background ="WHITE";
 
 }
@@ -55,6 +67,8 @@ function h1()
 	document.getElementById('h2').style.display="none";
 	document.getElementById('h3').style.display="none";
 	document.getElementById('home').style.display="none";
+	document.getElementById('contact').style.display="none";
+	document.getElementById('about').style.display="none";
 }
 function h2()
 {
@@ -62,6 +76,8 @@ function h2()
 	document.getElementById('h2').style.display="block";
 	document.getElementById('h3').style.display="none";
 	document.getElementById('home').style.display="none";
+	document.getElementById('contact').style.display="none";
+	document.getElementById('about').style.display="none";
 
 }
 function h3()
@@ -70,4 +86,6 @@ function h3()
 	document.getElementById('h2').style.display="none";
 	document.getElementById('h3').style.display="block";
 	document.getElementById('home').style.display="none";
+	document.getElementById('contact').style.display="none";
+	document.getElementById('about').style.display="none";
 }
