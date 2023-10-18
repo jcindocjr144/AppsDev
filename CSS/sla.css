@@ -21,11 +21,28 @@ body {
 }
 .home
 {
-	background-image: url(../IMAGES/back.gif); 
-	background-size:100vh; 
+	background-image: url(back.gif); 
+	background-size:cover; 
+	background-repeat:no-repeat;
 	height:100vh;
+	animation:anima 2s infinite;
+	
 }
-.nav-link
+@keyframes anima
 {
-	text-shadow: 0 0 0 3px BLACK;
+0%{text-shadow: 0 0 10px RED;}
+25%{text-shadow: 0 0 10px YELLOW;}
+50%{text-shadow: 0 0 10px RED;}
+75%{text-shadow: 0 0 10px YELLOW;}
+100%{text-shadow: 0 0 10px RED;}
+}
+.logo
+{
+	background:WHITE;
+	background-position: center;
+	border-radius:30px;
+}
+.learn
+{
+	font-size: 5rem;
 }
